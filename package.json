@@ -1,0 +1,26 @@
+{
+  "name": "truffle-test2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "truffle": "truffle",
+    "develop": "truffle develop",
+    "truffle-ganache": "truffle migrate --compile-all --reset --network ganache",
+    "truffle-console": "truffle console --network ganache"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soudegesu/truffle-test2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soudegesu/truffle-test2/issues"
+  },
+  "homepage": "https://github.com/soudegesu/truffle-test2#readme",
+  "dependencies": {
+    "solc": "^0.4.18",
+    "truffle": "^4.0.4"
+  }
+}
